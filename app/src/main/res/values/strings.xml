@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">QuoteApp</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="quote_fragment_label">Quote Fragment</string>
+    <string name="bookmark_fragment_label">Bookmark Fragment</string>
+    <string name="next">Next Quote</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="myBookMarks">My Bookmarks</string>
+
+    <string name="quote">\"%1$s\"</string>
+    <string name="author">- %1$s</string>
+    <string name="noBookmarks">No Bookmarked Quotes to show!!</string>
+
+    <string name="bookmarks">Go to your Bookmarked Quotes.</string>
+    <string name="back">Go back to Quotes page.</string>
+
+    <string name="toogleBookMark">Bookmark</string>
+
+</resources>

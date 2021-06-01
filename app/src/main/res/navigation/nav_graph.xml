@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/QuoteFragment">
+
+    <fragment
+        android:id="@+id/QuoteFragment"
+        android:name="com.parthpatel.quoteapp.ui.fragments.QuoteFragment"
+        android:label="@string/quote_fragment_label"
+        tools:layout="@layout/fragment_quote">
+        <action
+            android:id="@+id/action_QuoteFragment_to_BookmarkFragment"
+            app:destination="@id/BookmarkFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/BookmarkFragment"
+        android:name="com.parthpatel.quoteapp.ui.fragments.BookmarkFragment"
+        android:label="@string/bookmark_fragment_label"
+        tools:layout="@layout/fragment_bookmark">
+
+        <action
+            android:id="@+id/action_BookmarkFragment_to_QuoteFragment"
+            app:destination="@id/QuoteFragment"
+            app:popUpTo="@id/QuoteFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>
