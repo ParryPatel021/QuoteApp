@@ -2,6 +2,10 @@
 
 This repository contains source code of a Quote app, which uses [zen quotes](https://zenquotes.io) api, for retrieving quotes.
 
+![Kotlin](https://img.shields.io/badge/-Kotlin-05122A?style=flat&logo=kotlin)
+![Android Studio](https://img.shields.io/badge/-Android%20Studio-05122A?style=flat&logo=android-studio)
+![Retrofit](https://img.shields.io/badge/-Square-05122A?style=flat&logo=square)
+
 # Details
 This repository is created to learn the MVVM Architecture based on definition of Quote App.
 
