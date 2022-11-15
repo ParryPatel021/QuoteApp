@@ -7,9 +7,7 @@ import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.NavController
-import androidx.navigation.Navigation
 import androidx.navigation.fragment.NavHostFragment
-import androidx.navigation.fragment.NavHostFragment.findNavController
 import androidx.navigation.fragment.findNavController
 import com.parthpatel.quoteapp.databinding.ActivityMainBinding
 import com.parthpatel.quoteapp.repository.QuoteRepository
@@ -17,7 +15,6 @@ import com.parthpatel.quoteapp.room_db.QuoteDataBase
 import com.parthpatel.quoteapp.ui.fragments.BookmarkFragmentDirections
 import com.parthpatel.quoteapp.ui.fragments.QuoteFragmentDirections
 import com.parthpatel.quoteapp.utility.QuoteApp
-import com.parthpatel.quoteapp.utility.makeGone
 import com.parthpatel.quoteapp.utility.makeInvisible
 import com.parthpatel.quoteapp.utility.makeVisible
 import com.parthpatel.quoteapp.view_model.QuoteViewModel
